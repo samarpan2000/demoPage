@@ -76,7 +76,7 @@
     /* position: absolute; */
   }
   .img-top-corner {
-    background-color: #d49a3535;
+    /* background-color: #d49a3535; */
     position: absolute;
     top: 42%;
     left: 0;
@@ -86,7 +86,7 @@
 }
 
 .img-bottom-corner {
-    background-color: #d49a353f;
+    /* background-color: #d49a353f; */
     position: absolute;
     bottom: -41.5%;
     right: 0;
