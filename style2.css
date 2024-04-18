@@ -222,6 +222,17 @@
     /* width: 8%; Adjust this value as needed */
 }
 }
+@media screen and (min-width: 1400px) {
+  .img-top-corner {
+    top: 20%;
+    /* width: 20%; Adjust this value as needed */
+}
+
+.img-bottom-corner {
+  bottom: -19.9%;
+    /* width: 8%; Adjust this value as needed */
+}
+}
 @media screen and (min-width: 2560px) {
   .img-top-corner {
     top: 11%;
