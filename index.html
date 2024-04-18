@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-bar">
+            <div class="left"><img src="../images/HOTEL-removebg-preview.png" alt="logo-text-img"><a href="#"
+                    id="hotel-logo-link">Hotel Name</a></div>
+            <div class="right">
+                <a href="#">Home</a>
+                <a href="#" id="sign-up">Logout</a>
+            </div>
+        </div>
+        <div class="main">
+            <img src="./images/flower_top_corner_cropped.png" alt="flower-corner-top" class="img-top-corner">         
+            <form action="client-signup" method="post" class="login-signup-form" autocomplete="off">
+                <div class="heading-frm">
+                    <h2>Client Signup</h2>
+                </div>
+                <input type="text" name="name" placeholder="Enter Your Name" class="inp" required>
+                <input type="number" name="phone" maxlength=10 placeholder="Enter Your Phone Number" class="inp" required>
+                <input type="email" name="email" placeholder="Enter Your Mail" class="inp" required>
+                <input type="password" name="password" placeholder="Enter Password" class="inp" required>
+                <input type="submit" class="inp" id="submit-btn" value="Sign-up">
+            </form>
+            <img src="./images/flower_bottom_cropped.png" alt="flower-corner-top" class="img-bottom-corner">
+        </div>
+        <div class="foot">
+            <h3 id="foot-heading">HOTEL NAME</h3>
+            <div class="foot-desc">
+              <p>abc@gmail.com</p>
+              <p>Lakshadweep,Agatti</p>
+              <p>123-456-7890</p>
+            </div>
+          </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+    /* #D49B35 text */
+    /* #141414 background */
+  .container{
+    width: 100%;
+    height: 100svh;
+    
+  }
+  .nav-bar{
+    width: 100%;
+    padding: 0.5rem;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #D49B35;
+  }
+  .left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .left>img{
+    width: 100px;
+  }
+  #hotel-logo-link{
+    margin-left: 3px;
+    font-size: 1.5rem;
+    color: #D49B35;
+    text-decoration: none;
+  }
+  .right{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .right a{
+    margin-bottom: 0.5rem;
+    padding: 0.6rem;
+    color: #D49B35;
+    text-decoration: none;
+    transition: 0.05s ease-in-out;
+  }
+  .right a:hover{
+    border-bottom: 1px solid #D49B35;
+  }
+  #sign-up{
+    background-color: #D49B35;
+    color: #141414;
+    border-radius: 20px;
+  }
+  #sign-up:hover{
+    border: none;
+    box-shadow:1px 1px 10px white ;
+  }
+  .main{
+    width: 100%;
+    height: 100%;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    /* z-index: -100; */
+    /* overflow: hidden; */
+    /* position: absolute; */
+  }
+  .img-top-corner {
+    background-color: #d49a3535;
+    position: absolute;
+    top: 42%;
+    left: 0;
+    width: 20%; /* Adjust this value as needed */
+    max-width: 100px;
+    z-index: 1;
+}
+
+.img-bottom-corner {
+    background-color: #d49a353f;
+    position: absolute;
+    bottom: -41.5%;
+    right: 0;
+    width: 20%; /* Adjust this value as needed */
+    max-width: 100px;
+    z-index: 1;
+}
+
+  .login-signup-form{
+    color:#D49B35;
+    background-color: #141414;
+    min-width: 250px;
+    width: 50%;
+    max-width: 500px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    padding:1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #D49B35;
+    z-index: 1000;
+  }
+  .inp{
+    width: 100%;
+    height: 10%;
+    margin: 0.5rem 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #D49B35;
+    text-indent: 0.5rem;
+    border-radius: 10px;
+  }
+  .inp::placeholder{
+    color: rgba(0, 0, 0, 0.635);
+  }
+ span{
+    width: 100%;
+    height: 15%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0.5rem 0.5rem;
+  }
+  .inp-span{
+    width: 60%;
+    height: 60%;
+  }
+  #submit-btn{
+    color: #141414;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+  }
+  #submit-btn:hover{
+    cursor: pointer;
+    background-color: #141414;
+    color: #D49B35;
+    font-weight: bold;
+    box-shadow:1px 1px 10px #D49B35;
+  }
+  .foot{
+    background-color: #D49B35;
+    padding: 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-desc{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .foot-desc p,#foot-heading{
+    margin: 0.5rem;
+  }
+ /* Media query for screens with a minimum width of 768px */
+@media screen and (min-width: 768px) {
+  .container {
+    height: 100vh;
+  }
+  .nav-bar {
+    flex-direction: row;
+  }
+  .right {
+    width: 40%;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .foot-desc {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .img-top-corner {
+    top: 24%;
+    /* width: 20%; Adjust this value as needed */
+}
+
+.img-bottom-corner {
+  bottom: -23.5%;
+    /* width: 8%; Adjust this value as needed */
+}
+}
+
+/* Media query for screens with a minimum width of 1024px */
+@media screen and (min-width: 1024px) {
+  .img-top-corner {
+    top: 24%;
+    /* width: 20%; Adjust this value as needed */
+}
+
+.img-bottom-corner {
+  bottom: -23.5%;
+    /* width: 8%; Adjust this value as needed */
+}
+}
+
+/* Media query for screens with a minimum width of 1200px */
+@media screen and (min-width: 1200px) {
+  .img-top-corner {
+    top: 20%;
+    /* width: 20%; Adjust this value as needed */
+}
+
+.img-bottom-corner {
+  bottom: -19.9%;
+    /* width: 8%; Adjust this value as needed */
+}
+}
+@media screen and (min-width: 2560px) {
+  .img-top-corner {
+    top: 11%;
+}
+
+.img-bottom-corner {
+  bottom: -10.5%; 
+}
+}
